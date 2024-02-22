@@ -1,9 +1,78 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
   font-family: Poppins;
-  background-color: #444;
+  /* background-color: #444; */
 }
-.
+.left-section {
+  width: 25vw;
+  background-color: ;
+}
+.dashboard {
+  color: #444;
+  font-size: 0.75rem;
+  font-style: normal;
+  display: inline-block;
+  align-items: center;
+  vertical-align: bottom;
+}
+.dashboard::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e871";
+  display: inline-block;
+  font-size: 1.5rem;
+  vertical-align: center;
+  margin-right: 5px;
+
+  /* margin: 10px 10px 10px 10px; */
+}
+a:link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.home,
+.profile,
+.message,
+.history,
+.communities,
+.tasks {
+  color: white;
+  display: inline-block;
+  align-items: center;
+  vertical-align: bottom;
+  font-size: 1.5rem;
+  /* text-align: justify; */
+}
+.anchor-link::before {
+  font-size: 1.25rem;
+  margin-right: 5px;
+  vertical-align: center;
+}
+.home::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e88a";
+}
+.profile::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e7fd";
+}
+.message::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e253";
+}
+.history::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e889";
+}
+.tasks::before {
+  font-family: "Material Symbols Outlined";
+  content: "\f075";
+}
+.communities::before {
+  font-family: "Material Symbols Outlined";
+  content: "\e7ed";
+}
